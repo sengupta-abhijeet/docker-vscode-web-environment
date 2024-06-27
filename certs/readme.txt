@@ -1,4 +1,4 @@
-Step 2: Generate Self-Signed Certificates
+Step : Generate Self-Signed Certificates
 Generate self-signed certificates using OpenSSL:
 
 mkdir -p certs
