@@ -61,7 +61,7 @@ Build the Docker image and run the container:
 
 Open your web browser and navigate to `https://localhost:8080`. You will be prompted to enter the password you specified in the `docker-compose.yml`.
 
-### Step 6: Create a Python Virtual Environment
+### Step 6: Create a Python Virtual Environment ( Optional) 
 
 Once you are logged in to the VS Code web environment, open a terminal within VS Code and create a virtual environment using the following commands:
 
@@ -69,13 +69,13 @@ Once you are logged in to the VS Code web environment, open a terminal within VS
 2. `python3 -m venv myenv`
 3. `source myenv/bin/activate`
 
-### Step 7: Configure VS Code to Use the Virtual Environment
+### Step 7: Configure VS Code to Use the Virtual Environment ( Optional) 
 
 1. Open the Command Palette in VS Code by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
 2. Type `Python: Select Interpreter` and select it.
 3. Choose the interpreter from the virtual environment you created. It should be listed as something like `Python 3.x.x (myenv)`.
 
-### Step 8: Ensure the Virtual Environment is Activated Automatically
+### Step 8: Ensure the Virtual Environment is Activated Automatically ( Optional)
 
 To ensure that the virtual environment is activated automatically when you open a new terminal in VS Code, add the following configuration to your `settings.json` file:
 
